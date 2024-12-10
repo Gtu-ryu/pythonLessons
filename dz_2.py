@@ -1,4 +1,4 @@
-1)
+#1)
 try :
     a=float(input('chisl '))
     b=float(input('znamen '))
@@ -9,7 +9,7 @@ try :
 except ValueError:
     print('Введите число')
 
-2)
+#2)
 a=0
 try :
     a = float(input('Цена тпокупки '))
@@ -22,7 +22,7 @@ try :
 except ValueError:
     print('Введите число')
 
-3)
+#3)
 a=int(input('1-12 '))
 if a in range(1,13):
     if a in range(1,3) or a==12:
